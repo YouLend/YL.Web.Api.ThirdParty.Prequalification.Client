@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+YouLend Third Party Pre Qualification API
+
+Through this API you can can check if a merchant pre qualifies for a Youlend loan
+
+The version of the OpenAPI document: 1.0
+Contact: mark.ufland@youlend.com
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YL.Web.Api.ThirdParty.Prequalification.Client.Test</RootNamespace>
+    <AssemblyName>YL.Web.Api.ThirdParty.Prequalification.Client.Test</AssemblyName>
+    <!-- By Microsoft design, test project can only be netcoreapp2.0 (even if main project is .netstandard -->
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <ItemGroup>
+      <PackageReference Include="CompareNETObjects" Version="4.57.0" />
+      <PackageReference Include="JsonSubTypes" Version="1.5.2" />
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+      <PackageReference Include="xunit" Version="2.4.1" />
+      <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
+      <PackageReference Include="RestSharp" Version="106.6.7" />
+      <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+      <ProjectReference Include="..\YL.Web.Api.ThirdParty.Prequalification.Client\YL.Web.Api.ThirdParty.Prequalification.Client.csproj">
+          <Project>{0225BC9D-33C5-46BC-87E7-22FF3D8C6052}</Project>
+          <Name>YL.Web.Api.ThirdParty.Prequalification.Client</Name>
+      </ProjectReference>
+  </ItemGroup>
+</Project>
+

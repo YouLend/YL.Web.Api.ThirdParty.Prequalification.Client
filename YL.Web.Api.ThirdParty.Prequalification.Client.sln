@@ -1,0 +1,53 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YL.Web.Api.ThirdParty.Prequalification.Client", "src\YL.Web.Api.ThirdParty.Prequalification.Client\YL.Web.Api.ThirdParty.Prequalification.Client.csproj", "{0225BC9D-33C5-46BC-87E7-22FF3D8C6052}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YL.Web.Api.ThirdParty.Prequalification.Client.Test", "src\YL.Web.Api.ThirdParty.Prequalification.Client.Test\YL.Web.Api.ThirdParty.Prequalification.Client.Test.csproj", "{19F1DEBC-DE5E-4517-8062-F000CD499087}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AAC33CAD-A403-449E-A376-7F2BC1922464}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{8F3C109A-EB4D-4446-BC4A-9FC64890D78D}"
+	ProjectSection(SolutionItems) = preProject
+		docs\AddressModel.md = docs\AddressModel.md
+		docs\FinancialDataModel.md = docs\FinancialDataModel.md
+		docs\InvoiceDataRowModel.md = docs\InvoiceDataRowModel.md
+		docs\LoanOptionDocument.md = docs\LoanOptionDocument.md
+		docs\PaymentDataRowModel.md = docs\PaymentDataRowModel.md
+		docs\PreQualificationModel.md = docs\PreQualificationModel.md
+		docs\PreQualificationResultDocument.md = docs\PreQualificationResultDocument.md
+		docs\ProblemDetails.md = docs\ProblemDetails.md
+		docs\PurchaseDataRowModel.md = docs\PurchaseDataRowModel.md
+		docs\RequestsApi.md = docs\RequestsApi.md
+		docs\SignificantPersonModel.md = docs\SignificantPersonModel.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0225BC9D-33C5-46BC-87E7-22FF3D8C6052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0225BC9D-33C5-46BC-87E7-22FF3D8C6052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0225BC9D-33C5-46BC-87E7-22FF3D8C6052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0225BC9D-33C5-46BC-87E7-22FF3D8C6052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F3C109A-EB4D-4446-BC4A-9FC64890D78D} = {AAC33CAD-A403-449E-A376-7F2BC1922464}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {567A7B83-F24A-437F-862F-A17B8C7B8D13}
+	EndGlobalSection
+EndGlobal
